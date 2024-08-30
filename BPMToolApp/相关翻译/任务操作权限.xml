@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<!--开始-->
+	<StartNode>
+		<data name="Process_NodePerm_PickBackRestart">
+			<value>取回</value>
+		</data>
+		<data name="Process_NodePerm_Abort">
+			<value>撤销</value>
+		</data>
+		<data name="Process_NodePerm_Delete">
+			<value>删除</value>
+		</data>
+		<data name="Process_NodePerm_Transfer">
+			<value>委托</value>
+		</data>
+		<data name="Process_NodePerm_Inform">
+			<value>知会</value>
+		</data>
+		<data name="Process_NodePerm_InviteIndicate">
+			<value>阅示</value>
+		</data>
+		<data name="Process_NodePerm_Public">
+			<value>公开</value>
+		</data>
+		<data name="Process_NodePerm_Consign">
+			<value>阅批(加签)</value>
+		</data>
+		<data name="Process_NodePerm_Jump">
+			<value>调度</value>
+		</data>
+		<data name="Process_NodePerm_MobileApprove">
+			<value>手机上审批</value>
+		</data>
+		<data name="Process_NodePerm_RecedeRestart">
+			<value>退回重填</value>
+		</data>
+		<data name="Process_NodePerm_PickBack">
+			<value>取回</value>
+		</data>
+	</StartNode>
+	<!--审批、自由流、层级审批-->
+	<ActivityNode_FreeRoutingNode>
+		<data name="Process_NodePerm_BatchApprove">
+			<value>批量同意</value>
+		</data>
+		<data name="Process_NodePerm_RecedeRestart">
+			<value>退回重填</value>
+		</data>
+		<data name="Process_NodePerm_Reject">
+			<value>拒绝</value>
+		</data>
+		<data name="Process_NodePerm_Transfer">
+			<value>委托</value>
+		</data>
+		<data name="Process_NodePerm_Inform">
+			<value>知会</value>
+		</data>
+		<data name="Process_NodePerm_InviteIndicate">
+			<value>阅示</value>
+		</data>
+		<data name="Process_NodePerm_Public">
+			<value>公开</value>
+		</data>
+		<data name="Process_NodePerm_PickBackRestart">
+			<value>取回</value>
+		</data>
+		<data name="Process_NodePerm_RecedeBack">
+			<value>退回某步</value>
+		</data>
+		<data name="Process_NodePerm_Jump">
+			<value>调度</value>
+		</data>
+		<data name="Process_NodePerm_Consign">
+			<value>阅批(加签)</value>
+		</data>
+		<data name="Process_NodePerm_Abort">
+			<value>撤销</value>
+		</data>
+		<data name="Process_NodePerm_Delete">
+			<value>删除</value>
+		</data>
+		<data name="Process_NodePerm_MobileApprove">
+			<value>手机上审批</value>
+		</data>
+	</ActivityNode_FreeRoutingNode>
+	<!--<data name="Process_NodePerm_DeclareRouting">
+		<value>自由流</value>
+	</data>-->
+</root>

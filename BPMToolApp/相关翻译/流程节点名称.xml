@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<!--******常规节点******-->
+	<data name="Process_NodeName_Start">
+		<value>开始</value>
+	</data>
+	<data name="Process_NodeName_Activity">
+		<value>审批</value>
+	</data>
+	<data name="Process_NodeName_FreeRouting">
+		<value>自由流</value>
+	</data>
+	<data name="Process_NodeName_Decision">
+		<value>层级审批</value>
+	</data>
+	<data name="Process_NodeName_Condition">
+		<value>条件</value>
+	</data>
+	<data name="Process_NodeName_Split">
+		<value>分流</value>
+	</data>
+	<data name="Process_NodeName_Join">
+		<value>合流</value>
+	</data>
+	<data name="Process_NodeName_Inform">
+		<value>知会</value>
+	</data>
+	<data name="All_Notify">
+		<value>通知</value>
+	</data>
+	<data name="Process_NodeName_Snapshot">
+		<value>快照</value>
+	</data>
+	<data name="Process_NodeName_CallProcess">
+		<value>子流程</value>
+	</data>
+	<data name="Process_NodeName_End">
+		<value>结束</value>
+	</data>
+	<!--******输出适配器******-->
+	<data name="Process_NodeName_ESBAdapter">
+		<value>ESB适配器</value>
+	</data>
+	<data name="Process_NodeName_DBAdapter">
+		<value>数据库适配器</value>
+	</data>
+	<data name="Process_NodeName_XMLAdapter">
+		<value>XML适配器</value>
+	</data>
+	<data name="Process_NodeName_FileAdapter">
+		<value>附件适配器</value>
+	</data>
+	<!--******事件触发器******-->
+
+	<data name="Process_NodeName_TimeTrigger">
+		<value>时钟触发器</value>
+	</data>
+	<data name="Process_NodeName_FileTrigger">
+		<value>文件触发器</value>
+	</data>
+	<!--******企业间集成******-->
+	<data name="Process_NodeName_Interface">
+		<value>企业接口</value>
+	</data>
+	<data name="Process_NodeName_CallInterface">
+		<value>业务对接</value>
+	</data>
+	<!--******自定义插件******-->
+	<data name="Process_NodeName_SQLPlugin">
+		<value>SQL插件</value>
+	</data>
+	<data name="Process_NodeName_CodePlugin">
+		<value>C#插件</value>
+	</data>
+	<data name="Process_NodeName_DllPlugin">
+		<value>.Net插件</value>
+	</data>
+</root>

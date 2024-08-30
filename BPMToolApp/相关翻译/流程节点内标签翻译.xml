@@ -1,0 +1,669 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<data name="Process_AllDenyRead" xml:space="preserve">
+    <value>全不可读</value>
+  </data>
+	<data name="Process_AllDenySpoor" xml:space="preserve">
+    <value>不显示痕迹</value>
+  </data>
+	<data name="Process_AllDenyWrite" xml:space="preserve">
+    <value>全不可写</value>
+  </data>
+	<data name="Process_AllRead" xml:space="preserve">
+    <value>全可读</value>
+  </data>
+	<data name="Process_AllSpoor" xml:space="preserve">
+    <value>显示痕迹</value>
+  </data>
+	<data name="Process_AllWrite" xml:space="preserve">
+    <value>全可写</value>
+  </data>
+	<data name="Process_AttachmentCode_EmptyText" xml:space="preserve">
+    <value>附件存储字段...</value>
+  </data>
+	<data name="Process_BeforeDeadline" xml:space="preserve">
+    <value>截止日期前</value>
+  </data>
+	<data name="Process_BizType_Inheri" xml:space="preserve">
+    <value>从父级继承</value>
+  </data>
+	<data name="Process_BizType_Spec" xml:space="preserve">
+    <value>特有的业务属性</value>
+  </data>
+	<data name="Process_CallProcess_ChildColumn" xml:space="preserve">
+    <value>子流程数据</value>
+  </data>
+	<data name="Process_CallProcess_CrossServer" xml:space="preserve">
+    <value>跨服务器调用</value>
+  </data>
+	<data name="Process_CallProcess_CrossServer_BoxLabel" xml:space="preserve">
+    <value>调用位于其他服务器上的流程，子流程所在服务器：</value>
+  </data>
+	<data name="Process_CallProcess_FillTitle" xml:space="preserve">
+    <value>子流程启动时，带入父流程数据：</value>
+  </data>
+	<data name="Process_CallProcess_ParamFill" xml:space="preserve">
+    <value>填充值（父流程数据）</value>
+  </data>
+	<data name="Process_CallProcess_SaveTaskID" xml:space="preserve">
+    <value>存储TaskID</value>
+  </data>
+	<data name="Process_CallProcess_StartActivity" xml:space="preserve">
+    <value>开始活动</value>
+  </data>
+	<data name="Process_CallProcess_StartActivity_BoxLabel" xml:space="preserve">
+    <value>自动结束子流程的第一个活动</value>
+  </data>
+	<data name="Process_CallProcess_SyncCall" xml:space="preserve">
+    <value>同/异步</value>
+  </data>
+	<data name="Process_CallProcess_SyncCall_BoxLabel" xml:space="preserve">
+    <value>等待子流程返回</value>
+  </data>
+	<data name="Process_Call_Param_Schema" xml:space="preserve">
+    <value>数据交换规范</value>
+  </data>
+	<data name="Process_Caption_TransDataToRemoteServer" xml:space="preserve">
+    <value>业务对接时，将以下数据发送给远程服务器：</value>
+  </data>
+	<data name="Process_ChildProcessName" xml:space="preserve">
+    <value>子流程名称</value>
+  </data>
+	<data name="Process_ClearFilterCfm_Msg" xml:space="preserve">
+    <value>您确定要清空过滤条件？</value>
+  </data>
+	<data name="Process_Cond_Express" xml:space="preserve">
+    <value>条件表达式</value>
+  </data>
+	<data name="Process_Cond_ExpressDisplay" xml:space="preserve">
+    <value>条件显示为</value>
+  </data>
+	<data name="Process_CPlus_CodeTitle" xml:space="preserve">
+    <value>要执行的.net代码(C#)</value>
+  </data>
+	<data name="Process_DataControlSimple_Title" xml:space="preserve">
+    <value>数据赋值：</value>
+  </data>
+	<data name="Process_DataInit_Title" xml:space="preserve">
+    <value>数据访问权限与初始值设置：</value>
+  </data>
+	<data name="Process_DataRelationshipType" xml:space="preserve">
+    <value>数据关联模式</value>
+  </data>
+	<data name="Process_DataRelationshipType_PrimaryKey" xml:space="preserve">
+    <value>记录用户表的主键值</value>
+  </data>
+	<data name="Process_DataRelationshipType_TaskID" xml:space="preserve">
+    <value>通过用户表中的TaskID列</value>
+  </data>
+	<data name="Process_DBAdapter_AddUpdateTable" xml:space="preserve">
+    <value>添加需要更新的数据表</value>
+  </data>
+	<data name="Process_DBAdapter_DataUpdateType" xml:space="preserve">
+    <value>数据更新方式</value>
+  </data>
+	<data name="Process_DBAdapter_DataUpdateType_Update" xml:space="preserve">
+    <value>更新（相同数据存在则更新，不存在则插入）</value>
+  </data>
+	<data name="Process_DBAdapter_MapTitle" xml:space="preserve">
+    <value>数据映射：</value>
+  </data>
+	<data name="Process_DBAdapter_Map_ColumnName" xml:space="preserve">
+    <value>需要更新的表</value>
+  </data>
+	<data name="Process_DeadlineType_Absolute" xml:space="preserve">
+    <value>表单中的日期</value>
+  </data>
+	<data name="Process_DeadlineType_AfterEnterStep" xml:space="preserve">
+    <value>进入本步骤后</value>
+  </data>
+	<data name="Process_DeadlineType_AfterTaskCreate" xml:space="preserve">
+    <value>流程开始后</value>
+  </data>
+	<data name="Process_DeadlineType_FirstTimeEnterStep" xml:space="preserve">
+    <value>第一次进入本步骤后</value>
+  </data>
+	<data name="Process_Deadline_Title" xml:space="preserve">
+    <value>截止日期：</value>
+  </data>
+	<data name="Process_DecisionCondition" xml:space="preserve">
+    <value>终审条件</value>
+  </data>
+	<data name="Process_DefaultForm" xml:space="preserve">
+    <value>缺省表单</value>
+  </data>
+	<data name="Process_DefaultMobileForm" xml:space="preserve">
+    <value>缺省表单</value>
+  </data>
+	<data name="Process_Default_Name" xml:space="preserve">
+    <value>新流程</value>
+  </data>
+	<data name="Process_DesignProcess" xml:space="preserve">
+    <value>设计流程...</value>
+  </data>
+	<data name="Process_DuplicationLink" xml:space="preserve">
+    <value>相同的连线已存在</value>
+  </data>
+	<data name="Process_EditNotifyMessage" xml:space="preserve">
+    <value>修改通知内容</value>
+  </data>
+	<data name="Process_EndType_Approve" xml:space="preserve">
+    <value>承认结束</value>
+  </data>
+	<data name="Process_EndType_Reject" xml:space="preserve">
+    <value>拒绝结束</value>
+  </data>
+	<data name="Process_EnterProcessName" xml:space="preserve">
+    <value>输入流程名</value>
+  </data>
+	<data name="Process_ExportData_ExportTitle" xml:space="preserve">
+    <value>数据填充：</value>
+  </data>
+	<data name="Process_FieldSet_AutoApprove" xml:space="preserve">
+    <value>自动同意规则</value>
+  </data>
+	<data name="Process_FieldSet_BizType" xml:space="preserve">
+    <value>业务属性</value>
+  </data>
+	<data name="Process_FieldSet_NodePermisions" xml:space="preserve">
+    <value>任务操作权限</value>
+  </data>
+	<data name="Process_FieldSet_OutputLocation" xml:space="preserve">
+    <value>输出位置</value>
+  </data>
+	<data name="Process_FieldSet_OutputOptions" xml:space="preserve">
+    <value>输出选项</value>
+  </data>
+	<data name="Process_FieldSet_ParticipantInfo" xml:space="preserve">
+    <value>处理人基本信息</value>
+  </data>
+	<data name="Process_FieldSet_RecedableGroups" xml:space="preserve">
+    <value>退回范围</value>
+  </data>
+	<data name="Process_FieldSet_TimeoutNotify" xml:space="preserve">
+    <value>催办</value>
+  </data>
+	<data name="Process_FieldSet_TimeoutProcess" xml:space="preserve">
+    <value>过时处理</value>
+  </data>
+	<data name="Process_FileAdapter_ArchiveFiles" xml:space="preserve">
+    <value>要归档的附件</value>
+  </data>
+	<data name="Process_FileAdapter_ArchiveOptions" xml:space="preserve">
+    <value>归档选项</value>
+  </data>
+	<data name="Process_FileAdapter_ArchiveTarget" xml:space="preserve">
+    <value>归档到哪</value>
+  </data>
+	<data name="Process_FileAdapter_AttachmentFields" xml:space="preserve">
+    <value>附件存储字段</value>
+  </data>
+	<data name="Process_FileAdapter_Filter" xml:space="preserve">
+    <value>附件匹配/过滤</value>
+  </data>
+	<data name="Process_FileAdapter_Filter_EmptyText" xml:space="preserve">
+    <value>附件类型之间以";"分割，例如*.doc;*.xls，*.*匹配所有附件</value>
+  </data>
+	<data name="Process_FileAdapter_PostFix" xml:space="preserve">
+    <value>归档时加后缀</value>
+  </data>
+	<data name="Process_FileAdapter_Prefix" xml:space="preserve">
+    <value>归档时加前缀</value>
+  </data>
+	<data name="Process_FileAdapter_SelFieldsDlg_Caption" xml:space="preserve">
+    <value>勾选需归档附件的存储字段（仅显示文本字段）：</value>
+  </data>
+	<data name="Process_FileAdapter_SelFieldsDlg_Title" xml:space="preserve">
+    <value>选择附件字段</value>
+  </data>
+	<data name="Process_FileOutput_Overwrite" xml:space="preserve">
+    <value>覆盖同名文件</value>
+  </data>
+	<data name="Process_FileOutput_Overwrite_No" xml:space="preserve">
+    <value>否，当存在同名文件时发出警告</value>
+  </data>
+	<data name="Process_FileOutput_Overwrite_Yes" xml:space="preserve">
+    <value>是，覆盖同名文件不警告</value>
+  </data>
+	<data name="Process_FileTrigger_AfterTrigger" xml:space="preserve">
+    <value>触发后</value>
+  </data>
+	<data name="Process_FileTrigger_ArchiveTriggerFile" xml:space="preserve">
+    <value>归档触发文件</value>
+  </data>
+	<data name="Process_FileTrigger_DataIn" xml:space="preserve">
+    <value>数据带入</value>
+  </data>
+	<data name="Process_FileTrigger_DataSchema" xml:space="preserve">
+    <value>触发文件的数据规范，XML架构或XML样板文件(*.xsd;*.xml)</value>
+  </data>
+	<data name="Process_FileTrigger_DeleteTriggerFile" xml:space="preserve">
+    <value>删除触发文件(只删除触发成功的文件，触发失败的文件总是归档)</value>
+  </data>
+	<data name="Process_FileTrigger_ImportData" xml:space="preserve">
+    <value>导入触发文件中的数据(XML文件)</value>
+  </data>
+	<data name="Process_FileTrigger_MonitFileFilter" xml:space="preserve">
+    <value>监视文件类型</value>
+  </data>
+	<data name="Process_FileTrigger_MonitFileFilter_EmptyText" xml:space="preserve">
+    <value>多个文件类型之间以";"分割，例如*.xml;*.doc，*.*匹配所有文件</value>
+  </data>
+	<data name="Process_FileTrigger_MonitFolder" xml:space="preserve">
+    <value>监视文件夹</value>
+  </data>
+	<data name="Process_FileTrigge_AsAttachment" xml:space="preserve">
+    <value>触发文件作为流程附件</value>
+  </data>
+	<data name="Process_FirstTime" xml:space="preserve">
+    <value>第一次</value>
+  </data>
+	<data name="Process_FreeRoutingRecp" xml:space="preserve">
+    <value>处理人由以下步骤指定</value>
+  </data>
+	<data name="Process_FreeRouting_NoRecipiant" xml:space="preserve">
+    <value>不选择处理人</value>
+  </data>
+	<data name="Process_FreeRouting_Routing" xml:space="preserve">
+    <value>处理路由</value>
+  </data>
+	<data name="Process_FreeRouting_SelUser" xml:space="preserve">
+    <value>人员选择</value>
+  </data>
+	<data name="Process_GenCondByPosition" xml:space="preserve">
+    <value>根据职位</value>
+  </data>
+	<data name="Process_GenCondByProperty" xml:space="preserve">
+    <value>提交人属性</value>
+  </data>
+	<data name="Process_GenerateStandard" xml:space="preserve">
+    <value>生成规格</value>
+  </data>
+	<data name="Process_HistoryVersion_EmptyText" xml:space="preserve">
+    <value>无历史版本</value>
+  </data>
+	<data name="Process_Inform_Recipients" xml:space="preserve">
+    <value>知会以下人员</value>
+  </data>
+	<data name="Process_Interface_SameAsStep" xml:space="preserve">
+    <value>匹配触发步骤</value>
+  </data>
+	<data name="Process_Interface_TriggerTask" xml:space="preserve">
+    <value>触发流程的服务器</value>
+  </data>
+	<data name="Process_JoinType_Normal" xml:space="preserve">
+    <value>常规合流</value>
+  </data>
+	<data name="Process_JoinType_Vote" xml:space="preserve">
+    <value>表决合流</value>
+  </data>
+	<data name="Process_JumpIfProcessed" xml:space="preserve">
+    <value>处理人已经审批过</value>
+  </data>
+	<data name="Process_JumpIfSameOwnerWithInitiator" xml:space="preserve">
+    <value>处理人就是提交人</value>
+  </data>
+	<data name="Process_JumpIfSameOwnerWithPrevStep" xml:space="preserve">
+    <value>处理人和上一步相同</value>
+  </data>
+	<data name="Process_LinkAndButtonName" xml:space="preserve">
+    <value>连接弧名称（按钮名）</value>
+  </data>
+	<data name="Process_Link_DeafultRoute" xml:space="preserve">
+    <value>缺省处理</value>
+  </data>
+	<data name="Process_Link_DefaultRoute_No" xml:space="preserve">
+    <value>否</value>
+  </data>
+	<data name="Process_Link_DefaultRoute_Yes" xml:space="preserve">
+    <value>是（批量同意、自动处理时按此路径执行下一步）</value>
+  </data>
+	<data name="Process_Link_DisplayString" xml:space="preserve">
+    <value>线上显示字符串</value>
+  </data>
+	<data name="Process_Link_RelationCondition" xml:space="preserve">
+    <value>对应条件</value>
+  </data>
+	<data name="Process_Link_RelationCondition_False" xml:space="preserve">
+    <value>条件不成立（否）</value>
+  </data>
+	<data name="Process_Link_RelationCondition_True" xml:space="preserve">
+    <value>条件成立（是）</value>
+  </data>
+	<data name="Process_Link_SumbitCfm" xml:space="preserve">
+    <value>处理确认</value>
+  </data>
+	<data name="Process_Link_SumbitCfm_Option_EnterPassword" xml:space="preserve">
+    <value>密码框</value>
+  </data>
+	<data name="Process_Link_SumbitCfm_Option_Prompt" xml:space="preserve">
+    <value>提示框</value>
+  </data>
+	<data name="Process_Link_SumbitCfm_PromptMessage" xml:space="preserve">
+    <value>提示信息:</value>
+  </data>
+	<data name="Process_Link_VoteCondition" xml:space="preserve">
+    <value>对应决策结果</value>
+  </data>
+	<data name="Process_Link_VoteCondition_Pass" xml:space="preserve">
+    <value>通过</value>
+  </data>
+	<data name="Process_Link_VoteCondition_Reject" xml:space="preserve">
+    <value>否决</value>
+  </data>
+	<data name="Process_LoadFromFile" xml:space="preserve">
+    <value>从文件打开...</value>
+  </data>
+	<data name="Process_MessageGroups_Title" xml:space="preserve">
+    <value>通知消息汇总：</value>
+  </data>
+	<data name="Process_Message_AllDefault" xml:space="preserve">
+    <value>全部缺省</value>
+  </data>
+	<data name="Process_NewProcess" xml:space="preserve">
+    <value>新建流程...</value>
+  </data>
+	<data name="Process_NodeCat_Adapter" xml:space="preserve">
+    <value>输出适配器</value>
+  </data>
+	<data name="Process_NodeCat_Enterprise" xml:space="preserve">
+    <value>企业间集成</value>
+  </data>
+	<data name="Process_NodeCat_General" xml:space="preserve">
+    <value>常规节点</value>
+  </data>
+	<data name="Process_NodeCat_Plugin" xml:space="preserve">
+    <value>自定义插件</value>
+  </data>
+	<data name="Process_NodeCat_Trigger" xml:space="preserve">
+    <value>事件触发器</value>
+  </data>
+	<data name="Process_NodePerm_Abort" xml:space="preserve">
+    <value>撤销</value>
+  </data>
+	<data name="Process_NodePerm_BatchApprove" xml:space="preserve">
+    <value>批量同意</value>
+  </data>
+	<data name="Process_NodePerm_Consign" xml:space="preserve">
+    <value>阅批(加签)</value>
+  </data>
+	<data name="Process_NodePerm_DeclareRouting" xml:space="preserve">
+    <value>自由流</value>
+  </data>
+	<data name="Process_NodePerm_Delete" xml:space="preserve">
+    <value>删除</value>
+  </data>
+	<data name="Process_NodePerm_Inform" xml:space="preserve">
+    <value>知会</value>
+  </data>
+	<data name="Process_NodePerm_InviteIndicate" xml:space="preserve">
+    <value>阅示</value>
+  </data>
+	<data name="Process_NodePerm_Jump" xml:space="preserve">
+    <value>调度</value>
+  </data>
+	<data name="Process_NodePerm_MobileApprove" xml:space="preserve">
+    <value>手机上审批</value>
+  </data>
+	<data name="Process_NodePerm_PickBack" xml:space="preserve">
+    <value>取回</value>
+  </data>
+	<data name="Process_NodePerm_PickBackRestart" xml:space="preserve">
+    <value>取回</value>
+  </data>
+	<data name="Process_NodePerm_Public" xml:space="preserve">
+    <value>公开</value>
+  </data>
+	<data name="Process_NodePerm_RecedeBack" xml:space="preserve">
+    <value>退回某步</value>
+  </data>
+	<data name="Process_NodePerm_RecedeRestart" xml:space="preserve">
+    <value>退回重填</value>
+  </data>
+	<data name="Process_NodePerm_Reject" xml:space="preserve">
+    <value>拒绝</value>
+  </data>
+	<data name="Process_NodePerm_Transfer" xml:space="preserve">
+    <value>委托</value>
+  </data>
+	<data name="Process_OutLinks_Links" xml:space="preserve">
+    <value>显式连接弧</value>
+  </data>
+	<data name="Process_OutLinks_SystemLinks" xml:space="preserve">
+    <value>隐式连接弧</value>
+  </data>
+	<data name="Process_Owner_CreateForTitle" xml:space="preserve">
+    <value>为以下人员发起流程（对本地子流程有效，跨服务器启动子流程此项无效）</value>
+  </data>
+	<data name="Process_Owner_CreatePolicy" xml:space="preserve">
+    <value>发起策略</value>
+  </data>
+	<data name="Process_Owner_CreatePolicy_All" xml:space="preserve">
+    <value>为列表中的所有人发起流程</value>
+  </data>
+	<data name="Process_Owner_CreatePolicy_FirstUser" xml:space="preserve">
+    <value>为列表中的第一人发起流程</value>
+  </data>
+	<data name="Process_Participant_EnableAgent" xml:space="preserve">
+    <value>外出时自动转发给代理人</value>
+  </data>
+	<data name="Process_Participant_Policy" xml:space="preserve">
+    <value>处理策略</value>
+  </data>
+	<data name="Process_Participant_Policy_All" xml:space="preserve">
+    <value>发送给列表中的所有人</value>
+  </data>
+	<data name="Process_Participant_Policy_FirstUser" xml:space="preserve">
+    <value>列表中的第一人处理</value>
+  </data>
+	<data name="Process_Participant_Policy_Share" xml:space="preserve">
+    <value>列表中人员共享处理</value>
+  </data>
+	<data name="Process_Participant_SendToFirstShareUser" xml:space="preserve">
+    <value>直接将任务送入第一个共享人员的待处理任务列表</value>
+  </data>
+	<data name="Process_PersistParams" xml:space="preserve">
+    <value>持久化参数</value>
+  </data>
+	<data name="Process_PickBack_Anytime" xml:space="preserve">
+    <value>能随时取回（只要任务未结束）</value>
+  </data>
+	<data name="Process_PickBack_UnProcessedStepOnly" xml:space="preserve">
+    <value>仅在下一步审批前可取回</value>
+  </data>
+	<data name="Process_PleaseCheckRecedableGroup" xml:space="preserve">
+    <value>请勾选本节点可以退回到的组</value>
+  </data>
+	<data name="Process_PostFillWith" xml:space="preserve">
+    <value>提交时</value>
+  </data>
+	<data name="Process_PostfixColumns" xml:space="preserve">
+    <value>后缀位数</value>
+  </data>
+	<data name="Process_PreventSubmit" xml:space="preserve">
+    <value>不能提交</value>
+  </data>
+	<data name="Process_ProcessData" xml:space="preserve">
+    <value>流程数据</value>
+  </data>
+	<data name="Process_PublishDlg_Title" xml:space="preserve">
+    <value>发布流程</value>
+  </data>
+	<data name="Process_Publish_NewVersion" xml:space="preserve">
+    <value>发布为新版本</value>
+  </data>
+	<data name="Process_Publish_Overwrite" xml:space="preserve">
+    <value>替换当前版本</value>
+  </data>
+	<data name="Process_ReadForm" xml:space="preserve">
+    <value>查看表单</value>
+  </data>
+	<data name="Process_RecedableGroups" xml:space="preserve">
+    <value>还可以退回到</value>
+  </data>
+	<data name="Process_RemoveSelectedTables" xml:space="preserve">
+    <value>移除选中表</value>
+  </data>
+	<data name="Process_Return_FillTitle" xml:space="preserve">
+    <value>子流程结束时，返回数据到父流程：</value>
+  </data>
+	<data name="Process_Return_ParamFill" xml:space="preserve">
+    <value>填充值（子流程数据）</value>
+  </data>
+	<data name="Process_Return_ParentColumn" xml:space="preserve">
+    <value>父流程数据</value>
+  </data>
+	<data name="Process_SameAsStep" xml:space="preserve">
+    <value>与步骤“{0}”相同</value>
+  </data>
+	<data name="Process_SaveAsFile" xml:space="preserve">
+    <value>另存为文件...</value>
+  </data>
+	<data name="Process_ServerTriggerTheTask" xml:space="preserve">
+    <value>触发流程的服务器</value>
+  </data>
+	<data name="Process_Snapshot_VerDesc" xml:space="preserve">
+    <value>快照描述</value>
+  </data>
+	<data name="Process_SNDefinedFormat" xml:space="preserve">
+    <value>预置格式</value>
+  </data>
+	<data name="Process_SNSaveToFiels" xml:space="preserve">
+    <value>对应字段</value>
+  </data>
+	<data name="Process_SpecCalendar" xml:space="preserve">
+    <value>指定日历</value>
+  </data>
+	<data name="Process_SqlPlugin_NewDataSource" xml:space="preserve">
+    <value>添加数据源...</value>
+  </data>
+	<data name="Process_SqlPlugin_SqlCommand" xml:space="preserve">
+    <value>要执行的SQL命令</value>
+  </data>
+	<data name="Process_Status_Active" xml:space="preserve">
+    <value>活动</value>
+  </data>
+	<data name="Process_Status_History" xml:space="preserve">
+    <value>历史</value>
+  </data>
+	<data name="Process_StepOwnerCalendar" xml:space="preserve">
+    <value>本步骤处理人的日历</value>
+  </data>
+	<data name="Process_TableFilter" xml:space="preserve">
+    <value>数据过滤</value>
+  </data>
+	<data name="Process_TableType" xml:space="preserve">
+    <value>表类型</value>
+  </data>
+	<data name="Process_Taget_Folder" xml:space="preserve">
+    <value>目标文件夹</value>
+  </data>
+	<data name="Process_Taget_Server" xml:space="preserve">
+    <value>目标服务器</value>
+  </data>
+	<data name="Process_TaskOwnerCalendar" xml:space="preserve">
+    <value>提交人的日历</value>
+  </data>
+	<data name="Process_TimeoutMessageSettingDlgTitle" xml:space="preserve">
+    <value>催办通知</value>
+  </data>
+	<data name="Process_Timeout_AutoProcess" xml:space="preserve">
+    <value>自动处理</value>
+  </data>
+	<data name="Process_Timeout_Jump" xml:space="preserve">
+    <value>跳转到</value>
+  </data>
+	<data name="Process_Title_DataControl" xml:space="preserve">
+    <value>数据初始化</value>
+  </data>
+	<data name="Process_Title_DatasetControlTableDlg" xml:space="preserve">
+    <value>数据表属性 - {0}</value>
+  </data>
+	<data name="Process_Title_DatasetControlTableDlg_Empty" xml:space="preserve">
+    <value>数据表属性</value>
+  </data>
+	<data name="Process_Title_DBAdapter" xml:space="preserve">
+    <value>数据库更新设置</value>
+  </data>
+	<data name="Process_Title_DotNetEnv" xml:space="preserve">
+    <value>.net环境</value>
+  </data>
+	<data name="Process_Title_ExportData" xml:space="preserve">
+    <value>数据填充</value>
+  </data>
+	<data name="Process_Title_ExportDataSimple" xml:space="preserve">
+    <value>映射导出</value>
+  </data>
+	<data name="Process_Title_InformRecipients" xml:space="preserve">
+    <value>知会人</value>
+  </data>
+	<data name="Process_Title_OutLinks" xml:space="preserve">
+    <value>连接弧</value>
+  </data>
+	<data name="Process_Title_Owner" xml:space="preserve">
+    <value>创建子流程</value>
+  </data>
+	<data name="Process_Title_ParamsIn" xml:space="preserve">
+    <value>数据传入</value>
+  </data>
+	<data name="Process_Title_Return" xml:space="preserve">
+    <value>数据返回</value>
+  </data>
+	<data name="Process_Title_SelAssembly" xml:space="preserve">
+    <value>企业BPM扩展库</value>
+  </data>
+	<data name="Process_Title_SelRecedeBackGroup" xml:space="preserve">
+    <value>选择退回组</value>
+  </data>
+	<data name="Process_Title_SettingCallTarger" xml:space="preserve">
+    <value>设定呼叫目标</value>
+  </data>
+	<data name="Process_ToExceptionList" xml:space="preserve">
+    <value>发送给管理员（异常列表）</value>
+  </data>
+	<data name="Process_XMLAdapter_ByXSD" xml:space="preserve">
+    <value>按给定的XML架构生成XML文件</value>
+  </data>
+	<data name="Process_XMLAdapter_NoXSDUseMap" xml:space="preserve">
+    <value>没有XML架构，将流程数据映射成XML文件</value>
+  </data>
+	<data name="Process_XMLAdapter_XSDFile_Label" xml:space="preserve">
+    <value>XML架构</value>
+  </data>
+	<data name="Process_XSD_CreateNew" xml:space="preserve">
+    <value>定义新规范...</value>
+  </data>
+	<data name="Process_XSD_File" xml:space="preserve">
+    <value>XML架构文件</value>
+  </data>
+	<data name="Process_CallAsyncThrowQueue" xml:space="preserve">
+    <value>通过队列异步调用</value>
+  </data>
+	<data name="Process_CallESBAsync" xml:space="preserve">
+    <value>同/异步</value>
+  </data>
+	<data name="Process_CallESBName" xml:space="preserve">
+    <value>调用对象</value>
+  </data>
+	<data name="Process_CallESB_ESBInputTree_Title" xml:space="preserve">
+    <value>ESB调用参数</value>
+  </data>
+	<data name="Process_CallESB_ESBOutputTree_Title" xml:space="preserve">
+    <value>ESB返回数据</value>
+  </data>
+	<data name="Process_CallESB_InputPropertyPage_Title" xml:space="preserve">
+    <value>呼叫传入</value>
+  </data>
+	<data name="Process_CallESB_ProcessInputTree_Title" xml:space="preserve">
+    <value>流程数据</value>
+  </data>
+	<data name="Process_CallESB_ProcessOutputTree_Title" xml:space="preserve">
+    <value>流程数据</value>
+  </data>
+	<data name="Process_QueueName" xml:space="preserve">
+    <value>队列名称</value>
+  </data>
+	<data name="Process_AsyncCall_QueueName" xml:space="preserve">
+    <value>队列名称</value>
+  </data>
+</root>
