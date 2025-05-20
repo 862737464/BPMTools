@@ -46,6 +46,9 @@ namespace BPMToolApp
                 new OutPutFile().Write(service.Html, Path.Combine(appDirProcessPath, fileName));
 
                 Console.WriteLine("完成");
+
+                //将流程文件输出成JSON文件
+                //MLog.Log.Info(Path.GetFileName(fileFullPath)).Info(Newtonsoft.Json.JsonConvert.SerializeObject(bpmProcess, Newtonsoft.Json.Formatting.Indented));
             }
             var dirs = Directory.GetDirectories(processPath);
             foreach (var dir in dirs)
