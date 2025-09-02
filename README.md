@@ -9,8 +9,12 @@ Flowportal
 
 Flowportl官方网站：https://www.flowportal.com/
 
-更新履历
+## Flowportal门户点击菜单url打开新窗口显示
 
-2024-8-30
+[点击查看](https://mcn0cl9lbann.feishu.cn/docx/UL5FdCAdNoeB8Sxff8cc0xaqnkc)
+
+# 更新履历
+
+## 2024-8-30
 添加了流程审批节点转换html的功能，解析：开始、审批、层级审批、自由流
 注：层级审批未详细解析每一层的数据控制。
